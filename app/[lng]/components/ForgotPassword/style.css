@@ -1,0 +1,161 @@
+.forgot_container {
+  position: absolute;
+  width: 671px;
+  height: 374px;
+  left: 385px;
+  top: 160px;
+
+  /* Black */
+
+  background: #141414;
+  /* Shadows on Web Page */
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.h_forgot {
+  position: absolute;
+  width: 400px;
+  height: 25px;
+  left: 136px;
+  top: 40px;
+
+  /* AmsiPro-Bold_24pt */
+
+  font-family: "AmsiPro-Bold";
+  font-size: 24px;
+  line-height: 25px;
+  /* identical to box height, or 104% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.we_will_send {
+  position: absolute;
+  width: 400px;
+  height: 42px;
+  left: 136px;
+  top: 71px;
+
+  /* Amsi-pro_16pt
+
+main text
+*/
+  font-family: "AmsiPro-Regular";
+  font-size: 16px;
+  line-height: 21px;
+  /* or 131% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.close_menu {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 617px;
+  top: 22px;
+}
+
+.email {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  background: #141414;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 8px;
+
+  position: absolute;
+  width: 400px;
+  height: 64px;
+  left: 136px;
+  top: 134px;
+
+  /* Light Gray
+
+secondary text + icons
+*/
+  border: 1px solid #8f8f8f;
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+}
+
+.btn_reset {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 8px;
+
+  position: absolute;
+  width: 400px;
+  height: 64px;
+  left: 136px;
+  top: 222px;
+
+  /* Yellow */
+
+  background: #fae600;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.reset {
+  width: 360px;
+  height: 16px;
+
+  /* AmsiPro-Bold_16
+
+when hovering over text
+*/
+  font-family: "AmsiPro-Bold";
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #141414;
+}
+
+.to_login {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 136px;
+  top: 294px;
+
+  font-family: "AmsiPro-Regular";
+  font-size: 16px;
+  line-height: 16px;
+  /* or 100% */
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Light Gray */
+
+  color: #8f8f8f;
+}

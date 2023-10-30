@@ -1,0 +1,14 @@
+{
+  "cssImports": {
+    "/Users/mohmd/Documents/GitHub/WAHOOPREDIT/front-end-side/app/[lng]/layout.tsx": [
+      "/Users/mohmd/Documents/GitHub/WAHOOPREDIT/front-end-side/node_modules/next/font/local/target.css?{\"path\":\"app/[lng]/layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"./assets/fonts/amsi-pro/AmsiPro-Regular.otf\",\"weight\":\"400\",\"style\":\"normal\"},{\"path\":\"./assets/fonts/amsi-pro/AmsiPro-Bold.otf\",\"weight\":\"700\",\"style\":\"normal\"},{\"path\":\"./assets/fonts/amsi-pro/AmsiPro-Black.otf\",\"weight\":\"900\",\"style\":\"normal\"}],\"variable\":\"--font-amis-pro\"}],\"variableName\":\"amisProFont\"}",
+      "/Users/mohmd/Documents/GitHub/WAHOOPREDIT/front-end-side/app/[lng]/theme/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/mohmd/Documents/GitHub/WAHOOPREDIT/front-end-side/app/[lng]/page": [
+      "/Users/mohmd/Documents/GitHub/WAHOOPREDIT/front-end-side/app/[lng]/theme/globals.css",
+      "/Users/mohmd/Documents/GitHub/WAHOOPREDIT/front-end-side/node_modules/next/font/local/target.css?{\"path\":\"app/[lng]/layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"./assets/fonts/amsi-pro/AmsiPro-Regular.otf\",\"weight\":\"400\",\"style\":\"normal\"},{\"path\":\"./assets/fonts/amsi-pro/AmsiPro-Bold.otf\",\"weight\":\"700\",\"style\":\"normal\"},{\"path\":\"./assets/fonts/amsi-pro/AmsiPro-Black.otf\",\"weight\":\"900\",\"style\":\"normal\"}],\"variable\":\"--font-amis-pro\"}],\"variableName\":\"amisProFont\"}"
+    ]
+  }
+}

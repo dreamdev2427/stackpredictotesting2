@@ -1,0 +1,504 @@
+/* Reset some default styles Global */
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    list-style: none;
+    background-color: #011027;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #011027;
+
+}
+
+.action-button {
+    text-decoration: none;
+    padding: 10px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.action-button:hover,
+.action-button2:hover:hover {
+
+    background-color: #011027;
+
+}
+
+.action-button2 {
+    text-decoration: none;
+    padding: 10px 16px;
+    color: white;
+
+}
+
+/* Filter */
+
+/* .filter {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+/* .filter label {
+    margin-right: 10px;
+}
+
+.filter select {
+    border: 1px solid #fff;
+    background: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #fff;
+    margin-right: 20px;
+
+} */
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    margin: 40px auto;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style table headers */
+th {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+/* Style alternating rows for better readability */
+tr:nth-child(even) {
+    background-color: #011027;
+}
+
+/* Style table data cells */
+td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style the select when it is focused (dropdown open) */
+
+.filter select:focus {
+    background-color: #011027;
+}
+
+/* Style the header */
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style Logo */
+
+/* .logo h1 {
+    font-size: 24px;
+    margin: 0;
+} */
+
+/* .logo span {
+    color: rgb(30, 144, 255)
+} */
+
+/* Style the Navbar */
+
+/* nav .icons {
+    display: flex;
+    align-items: center;
+} */
+
+/* nav .icons .icon {
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+} */
+
+/* .icons .icon i {
+    margin-right: 10px;
+    margin-left: 10px;
+
+} */
+
+/* End  Style the header */
+
+
+/* Style the sidebar */
+
+/* .sidebar {
+    color: white;
+    width: 180px;
+    position: fixed;
+    top: 120px;
+    overflow-y: auto;
+} */
+
+/* Style the sidebar links */
+
+/* .sidebar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    margin-bottom: 40px;
+} */
+
+/* .sidebar a:hover {
+    background-color: #203554;
+} */
+
+/* Style the icon in the sidebar */
+
+.sidebar a i {
+    margin-bottom: 5px;
+}
+
+/* End Style the sidebar */
+
+
+/* Style the main content area to create space for the sidebar */
+/* 
+main {
+    margin-left: 200px;
+    background-color: #203554;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: white;
+    padding: 30px 50px;
+    min-height: 500px;
+} */
+
+/* My Account style  */
+
+/* Header */
+/* .my-account .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* Navbar */
+
+/* .my-account .navbar {
+    margin: 20px 0;
+
+} */
+
+.my-account .navbar a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+
+}
+
+.my-account .navbar a:hover {
+    color: dodgerblue;
+    padding-bottom: 22px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+
+.change-view-my-accounts {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+
+}
+
+/* Style the vertical line */
+
+.change-view-my-accounts .vertical-line {
+    width: 1px;
+    height: 35px;
+    background-color: #ffffff;
+}
+
+.change-view-my-accounts .my-icon {
+    font-size: 20px;
+}
+
+
+/* Style the bordered div */
+/* #list-view {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: 40px;
+
+} */
+
+/* Style the header section */
+
+/* #list-view .header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+/* #list-view .header .green-background {
+    background-color: #27c255;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+} */
+/* 
+#list-view .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 30px;
+
+} */
+
+#list-view .content a {
+
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+#list-view .content p {
+
+    margin-left: 15px;
+
+}
+
+/* #width-view {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 230px;
+
+} */
+
+#width-view .item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#width-view .item p {
+    color: gray;
+    font-size: 16px;
+}
+
+
+/* Deposit section */
+
+/* .deposit .header {
+    margin-bottom: 50px;
+} */
+
+/* .deposit .header p {
+    margin-top: 50px;
+} */
+
+/* .deposit .content {
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+} */
+
+/* .deposit .content .item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} */
+
+/* .deposit .item {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-width: 45%;
+} */
+
+/* .deposit .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deposit .icon-container {
+    width: 40px;
+    margin-right: 20px;
+
+} */
+
+.bankera-Icon {
+    width: 25px;
+    margin-right: 20px;
+
+}
+
+.deposit .icon-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.deposit .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #11c511;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deposit .circle i {
+    font-size: 20px;
+    color: white;
+}
+
+.deposit .item .item-content {
+    color: gray;
+}
+
+.item:nth-child(2n) {
+    margin-right: 0;
+}
+
+/* Transaction history section */
+
+
+.transaction-history .header {
+    margin-bottom: 40px;
+}
+
+/* Settings history section */
+
+/* .settings .navbar {
+    margin: 20px 0;
+
+} */
+
+/* .settings .navbar a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+
+} */
+
+/* .settings .navbar a:hover {
+    color: #1e90ff;
+    padding-bottom: 22px;
+    border-bottom: 3px solid dodgerblue;
+} */
+
+/* Settings history section */
+
+/* .settings .navbar {
+    margin: 20px 0;
+
+} */
+
+/* .settings .navbar a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+
+} */
+
+/* .settings .navbar a:hover {
+    color: dodgerblue;
+    padding-bottom: 22px;
+    border-bottom: 3px solid dodgerblue;
+} */
+
+/* .settings .content .boxes {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+} */
+
+/* .settings .content .box {
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+} */
+
+/* .settings .content .box .left-side {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+} */
+
+/* .settings .content .box .left-side .box-text {
+    margin-left: 40px;
+} */
+
+/* .settings .content .box i {
+    font-size: 30px;
+} */
+
+/* .settings .content .box p {
+    color: gray;
+} */
+
+/* .settings .content .box h3 {
+    color: brown;
+} */
+
+/* .settings .content .step {
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+} */
+
+/* .settings .content p {
+    color: gray;
+} */
+
+/* .settings .content .box-security {
+
+    border: 1px solid #fff;
+    padding: 15px;
+
+} */
+
+/* .settings .content .item-box {
+    display: flex;
+    align-items: center;
+} */
+
+/* .settings .content .item-box label {
+
+    width: 100px;
+} */
+
+.settings .content .item-box h4 {
+    width: 150px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 40%;
+
+}
